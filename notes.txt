@@ -1,0 +1,18 @@
+start
+insert column after train number in fax sheet
+look for train number in mosr list
+check origin division of that train in mosr list
+if origin is not BCT:
+  copy origin to new column is fax-sheet
+if the origin is BCT:
+  if class in fax sheet is SL or 2SL:
+    copy BCT
+  else:
+    write CCG to the new fax sheet column
+    add the CCG row to the new file in specific format
+
+SPECIFIC FORMAT:
+  - same columns as fax sheet but transposed
+  - on set per CCG row
+  - sets seperated by 12 lines
+

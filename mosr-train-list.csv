@@ -1,14 +1,14 @@
 TRAIN NO.,TRAIN NAME,ORIGIN DIVN,ORIGIN STN,TIME
-02200*,Bandra Terminus - Virangana Lakshmibai (Jhansi) SF Special*,BCT,BDTS,5-10
-02133*,Bandra Terminus - Jabalpur Weekly SF Special Fare Special*,BCT,BDTS,17-20
-0 2244,Bandra Terminus - Kanpur Central SF Special,BCT,BDTS,5-10
-05308*,Bandra Terminus - Gorakhpur Special Fare Holi Special (UnReserved)*,BCT,BDTS,19-25
-09037*,Bandra Terminus - Barmer Humsafar Special*,BCT,BDTS,19-25
-09065*,Surat - Chhapra Clone Special,SURAT,SURAT,08-30
-09159*,Bandra Terminus - Vapi Express Special (UnReserved)*,BCT,BDTS,9-15
-09316*,Ahmedabad - Vadodara MEMU Special*,ADI,ADI,5-20
-09480*,Okha - Rajkot Passenger Special (UnReserved),RJT,OKHA,21-30
-09513*,Rajkot - Veraval Express Special (UnReserved),RJT,RJT,08-10
+02200,Bandra Terminus - Virangana Lakshmibai (Jhansi) SF Special,BCT,BDTS,5-10
+02133,Bandra Terminus - Jabalpur Weekly SF Special Fare Special,BCT,BDTS,17-20
+02244,Bandra Terminus - Kanpur Central SF Special,BCT,BDTS,5-10
+05308,Bandra Terminus - Gorakhpur Special Fare Holi Special (UnReserved),BCT,BDTS,19-25
+09037,Bandra Terminus - Barmer Humsafar Special,BCT,BDTS,19-25
+09065,Surat - Chhapra Clone Special,SURAT,SURAT,08-30
+09159,Bandra Terminus - Vapi Express Special (UnReserved),BCT,BDTS,9-15
+09316,Ahmedabad - Vadodara MEMU Special,ADI,ADI,5-20
+09480,Okha - Rajkot Passenger Special (UnReserved),RJT,OKHA,21-30
+09513,Rajkot - Veraval Express Special (UnReserved),RJT,RJT,08-10
 11049,Ahmedabad - SCSMT Kolhapur Express,ADI,ADI,20-20
 11087,Veraval - Pune Express,BVP,VRL/BVP,10-45
 11091,Bhuj - Pune Express,ADI,BHUJ  ,13-25
@@ -49,7 +49,7 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 12902,GUJARAT MAIL,ADI,ADI,22-50
 12903,GOLDEN TEMPLE MAIL,BCT,BCT,18-45
 12905,PBR - SHALIMAR SF EXP,BVP,BVP,8-50
-12907*,Maharashtra Sampark Kranti Express (PT)*,BCT,BDTS,17-30
+12907,Maharashtra Sampark Kranti Express (PT),BCT,BDTS,17-30
 12909,BDTS-NZM GARIB RATH,BDTS,BDTS,17-30
 12911,VALSAD - HARIDWAR SF EXP,BL,BL,15-20
 12913,Indore - Nagpur Weekly SF Express,RTM,INDB,20-35
@@ -60,10 +60,10 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 12923,Dr. Ambedkar Nagar - Nagpur SF Express,RTM,DADN,20-55
 12925,PASCHIM SF EXP,BCT,BDTS,11-30
 12931,BCT ADI DOUBLE DECKER,MMCT ,MMCT ,14-30
-12932*,Ahmedabad - Mumbai Central AC Double Decker Express*,ADI,ADI,06-00
+12932,Ahmedabad - Mumbai Central AC Double Decker Express,ADI,ADI,06-00
 12933,KARNAVATI EXPRESS,MMCT ,MMCT ,14-30
-12934*,Karnavati Express*,ADI,ADI,4-55
-12935*,Bandra Terminus - Surat InterCity Express*,BCT,BDTS,6-35
+12934,Karnavati Express,ADI,ADI,4-55
+12935,Bandra Terminus - Surat InterCity Express,BCT,BDTS,6-35
 12936,Surat - Bandra Terminus SF InterCity Express,SURAT,SURAT,16-05
 12937,GIM - HWH GARBA SF EXP,GIM,ADI,18-10
 12941,PARASNATH SF EXP,BVP,BVP,17-45
@@ -76,7 +76,7 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 12957,SWARNA JAYANTI RAJDHANI EXP,ADI,ADI,17-45
 12961,Avantika SF Express,BCT,BCT,20-55
 12962,Avantika SF Express,RTM,INDB,17-00
-12971*,Bandra Terminus - Bhavnagar Terminus SF Express (PT)*,BCT,BDTS,19-10
+12971,Bandra Terminus - Bhavnagar Terminus SF Express (PT),BCT,BDTS,19-10
 12972,BVP-BDTS SF EXP,BVP ,BVP ,18-30
 12973,Indore - Jaipur SF Express,RTM,INDB,22-20
 12979,BDTS - JP SF,BCT,BCT,17-05
@@ -107,11 +107,11 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 16734,Okha - Rameswaram Weekly Express,RJT,OKHA ,08-40
 18406,ADI-PURI EXPRESS,ADI,ADI,19-00
 18233,Narmada Express,RTM,INDB,16-00
-19003*,Khandesh Express*,BCT,BDTS,0-20
+19003,Khandesh Express,BCT,BDTS,0-20
 19015,MMCT-PBR SAURASHTRA EXP,BCT,BCT,09-20
 19016,SAURASHTRA EXPRESS,BVP,PBR,21-20
-19019*,Bandra Terminus - Haridwar Express,BCT,BDTS,0-05
-19027*,Bandra Terminus - Jammu Tawi Vivek Express*,BCT,BDTS,12-00
+19019,Bandra Terminus - Haridwar Express,BCT,BDTS,0-05
+19027,Bandra Terminus - Jammu Tawi Vivek Express,BCT,BDTS,12-00
 19031,YOGA EXPRESS,ADI,ADI,10-50
 19034,Gujarat Queen,ADI,ADI,18-10
 19037,BDTS BARAUNI AVADH,BCT,BDTS,22-00
@@ -123,13 +123,13 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 19053,Surat - Muzaffarpur Express,SURAT,SURAT,07-35
 19055,BL-JODHPUR WEEKLY EXP,BL,BL,19-00
 19065,Bandra Terminus - Bhagat Ki Kothi SF Express (Via Abu Road),BCT,BDTS,23-55
-19091*,Bandra Terminus - Gorakhpur Humsafar Express*,BCT,BDTS,5-10
+19091,Bandra Terminus - Gorakhpur Humsafar Express,BCT,BDTS,5-10
 19165,ADI-DARBHANGA SABARMATI EXP,ADI,ADI,23-00
 19167,ADI-VARANASI SABARMATI EXP,ADI,ADI,23-00
 19202,Porbandar - Secunderabad Weekly Express,BVP,PBR,00-50
 19209,Bhavnagar Terminus - Okha Express,BVP,BVP,22-10
 19210,Okha - Bhavnagar Terminus Express,RJT,OKHA,15-15
-19217*,Saurashtra Janta Express (PT)*,BCT,BDTS,13-40
+19217,Saurashtra Janta Express (PT),BCT,BDTS,13-40
 19218,SAURASHTRA JANATA EXP,BVP,VERAWAL,11-50
 19223,ADI-JAT EXP,ADI,ADI,11-05
 19251,Somnath - Okha Express,BVP,SMNH,22-50
@@ -158,8 +158,8 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 19409,ADI - GORAKHPUR EXP,ADI,ADI,09-50
 19413,Ahmedabad - Kolkata Weekly Express,ADI,ADI,21-05
 19421,Ahmedabad - Patna Express,ADI,ADI,21-50
-19435*,Ahmedabad - Asansol Weekly Express (PT)*,ADI,ADI,00-35
-19483*,Ahmedabad - Barauni Express*,ADI,ADI,00-35
+19435,Ahmedabad - Asansol Weekly Express (PT),ADI,ADI,00-35
+19483,Ahmedabad - Barauni Express,ADI,ADI,00-35
 19565,Uttaranchal Express,RJT,OKHA,10-00
 19568,Okha - Tuticorin Vivek Express,RJT,OKHA,00-55
 19571,Rajkot - Porbandar Express (UnReserved),RJT,RJT,7-00
@@ -184,39 +184,39 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 20932,Indore - Kochuveli Weekly SF Express,RTM,INDB,21-40
 20933,Udhna - Danapur SF Express,SURAT,UDN,8-35
 20937,PBR-DLI S. ROHILLA EXP,BVP,PBR,19-40
-20939*,Ahmedabad - Sultanpur SF Express (PT)*,ADI,ADI,8-00
-20941*,Bandra Terminus - Ghazipur City SF Express (PT)*,BCT,BDTS,23-25
-20943*,Bandra Terminus - Bhagat Ki Kothi Humsafar Express*,BCT,BDTS,21-45
-20947*,Ahmedabad - Ekta Nagar (Kevadiya) Jan Shatabdi Express*,ADI,ADI,7-55
+20939,Ahmedabad - Sultanpur SF Express (PT),ADI,ADI,8-00
+20941,Bandra Terminus - Ghazipur City SF Express (PT),BCT,BDTS,23-25
+20943,Bandra Terminus - Bhagat Ki Kothi Humsafar Express,BCT,BDTS,21-45
+20947,Ahmedabad - Ekta Nagar (Kevadiya) Jan Shatabdi Express,ADI,ADI,7-55
 20954,ADI - MGR Chennai Central Express,ADI,ADI,9-40
 20956,MAHUVA SURAT SF EXP,BVP,MAHUVA,19-30
 21125,Ratlam - Bhind Express (PT),RTM,RTM,17-25
 22138,Prerna Express,ADI,ADI,18-30
 22185,ADI - Pune SF Express,ADI,ADI,20-20
 22191,INDORE JABALPUR OVERNIGHT SF,RTM,IND,19-30
-22196*,Bandra Terminus - Virangana Lakshmibai (Jhansi) Superfast Express (PT)*,BCT,BDTS,5-10
+22196,Bandra Terminus - Virangana Lakshmibai (Jhansi) Superfast Express (PT),BCT,BDTS,5-10
 22209,BCT-NDLS DURENTO,BCT,BCT,23-00
-22444*,Bandra Terminus - Kanpur Central Weekly SF Express (PT)*,BCT,BDTS,5-10
+22444,Bandra Terminus - Kanpur Central Weekly SF Express (PT),BCT,BDTS,5-10
 22468,Gandhinagar Capital - Varanasi SF Weekly Express,ADI,GNC,23-15
-22474*,Bandra Terminus - Bikaner SF Express (PT)*,BCT,BDTS,14-40
+22474,Bandra Terminus - Bikaner SF Express (PT),BCT,BDTS,14-40
 22451,BDTS CHANDIGARH SF EXP,BCT,BDTS,12-00
 22548,ADI GWALIOR SF EXPRESS,ADI,ADI,16-30
 22645,Ahilya Nagari SF Express (PT),RTM,INDB,16-45
 22717,RAJKOT SEC SF,RJT,RJT,5-30
-22901*,Bandra Terminus - Udaipur City SF Express (PT)*,BCT,BDTS,23-25
-22903*,Bandra Terminus - Bhuj AC SF Express*,BCT,BDTS,23-45
+22901,Bandra Terminus - Udaipur City SF Express (PT),BCT,BDTS,23-25
+22903,Bandra Terminus - Bhuj AC SF Express,BCT,BDTS,23-45
 22904,BHUJ-BDTS SF,BHUJ,ADI,16-05
 22905,SHALIMAR SF EXPRESS,RJT,OKHA,8-40
 22908,Hapa - Madgaon Weekly SF Express,RJT,HXP,21-40
 22909,VALSAD PURI SF EXP,BL,BL,20-10
 22911,SHIPRA EXP,RTM,IND,23-30
 22913,BDTS SAHARSA HAMSAFAR EXP,BCT,BDTS,16-45
-22915*,Bandra Terminus - Hisar Weekly SF Express (PT)*,BCT,BDTS,12-15
+22915,Bandra Terminus - Hisar Weekly SF Express (PT),BCT,BDTS,12-15
 22917,BDTS HARIDWAR SF EXP,BDTS,BDTS,12-45
-22931*,Bandra Terminus - Jaisalmer SF Express (PT)*,BCT,BDTS,12-15
+22931,Bandra Terminus - Jaisalmer SF Express (PT),BCT,BDTS,12-15
 22924,JAMNAGAR BDTS HAMSAFAR,RJT,JAM,20-00
 22933,BDTS - JP  SF,BCT,BCT,17-05
-22935*,Bandra Terminus - Palitana Weekly SF Express*,BCT,BDTS,16-45
+22935,Bandra Terminus - Palitana Weekly SF Express,BCT,BDTS,16-45
 22936,Palitana - Bandra Terminus Weekly SF Express,BVP,PALITANA,20-00
 22937,Rajkot - Rewa SF Express,RJT,RJT,13-45
 22939,Hapa - Bilaspur SF Express ,RJT,HXP,21-55
@@ -226,26 +226,26 @@ Other Names: Sindhu SF Express",RJT,JAM ,8-15
 22945,SAURASHTRA MAIL,MMCT,MMCT,21-05
 22946,SAURASHTRA MAIL,RJT,OKHA,11-05
 22947,Surat - Bhagalpur SF Express,SURAT,SURAT,10-10
-22949*,Bandra Terminus - Delhi Sarai Rohilla SF Express*,BCT,BDTS,12-15
-22951*,Bandra Terminus - Gandhidham SF Express*,BCT,BDTS,14-40
+22949,Bandra Terminus - Delhi Sarai Rohilla SF Express,BCT,BDTS,12-15
+22951,Bandra Terminus - Gandhidham SF Express,BCT,BDTS,14-40
 22952,Gandhidham - Bandra Terminus SF Express,ADI,GIMB,20-40
 22953,GUJARAT EXPRESS,BCT,BCT,05-45
 22954,Gujarat SF Express,ADI,ADI,7-05
-22955*,Kutch SF Express (PT)*,BCT,BDTS,17-45
+22955,Kutch SF Express (PT),BCT,BDTS,17-45
 22956,KUTCH SF,ADI,BHUJ,20-15
 22960,Jamnagar - Vadodara InterCity Express,RJT,JAM,4-45
 22958,SOMNATH SF EXPRESS,BVP,VRL,21-50
 22947,SURAT BHAGALPUR SF EXP,SURAT,SURAT,10-10
-22963*,Bandra Terminus - Bhavnagar Terminus Weekly SF Express*,BCT,BDTS,16-45
+22963,Bandra Terminus - Bhavnagar Terminus Weekly SF Express,BCT,BDTS,16-45
 22964,Bhavnagar Terminus - Bandra Terminus Weekly SF Express,BVP,BVP,17-45
-22965*,Bandra Terminus - Bhagat Ki Kothi SF Express (Via Abu Road) (PT)*,BCT,BDTS,23-55
+22965,Bandra Terminus - Bhagat Ki Kothi SF Express (Via Abu Road) (PT),BCT,BDTS,23-55
 22967,ADI PRAYAGRAJ SF EXP,ADI,ADI,16-35
 22969,OKHA - VARANASI SF EXP,RJT,OKHA,14-05
 22971,BDTS-PATNA SF,BDTS,BDTS,19-15
-22975*,Bandra Terminus - Ramnagar Weekly SF Express (PT)*,BCT,BDTS,5-10
+22975,Bandra Terminus - Ramnagar Weekly SF Express (PT),BCT,BDTS,5-10
 22984,Indore - Kota InterCity Express,RTM,INDB,15-35
-22989*,Bandra Terminus - Mahuva SF Express*,BCT,BDTS,16-45
+22989,Bandra Terminus - Mahuva SF Express,BCT,BDTS,16-45
 22990,Mahuva - Bandra Terminus SF Express,BVP,MAHUVA  ,19-15
-22993*,Bandra Terminus - Mahuva SF Express*,BCT,BDTS,16-45
+22993,Bandra Terminus - Mahuva SF Express,BCT,BDTS,16-45
 59023,BCT-BL BL FAST PASSENGER,BCT,BCT,19-05
-82902*,Ahmedabad - Mumbai Central IRCTC Tejas Express*,ADI,ADI,6-40
+82902,Ahmedabad - Mumbai Central IRCTC Tejas Express,ADI,ADI,6-40
