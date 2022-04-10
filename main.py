@@ -2,7 +2,7 @@ import os
 import csv
 import sys
 
-MOSR_FILE = 'mosr-train-list.csv'
+MOSR_FILE = 'database.csv'
 FAX_SHEET = sys.argv[1]
 UPDATED_SHEET = 'updated-sheet.csv'
 CCG_SHEET = 'ccg-sheet.csv'
