@@ -39,7 +39,6 @@ def generate_updated_sheet():
     updated_rows = []
 
     for row in reader:
-      print(row)
       new_row = row
       new_row['Division'] = get_origin_divn(row[train_no_column])
 
@@ -60,7 +59,7 @@ def generate_updated_sheet():
 
 def generate_ccg_sheet():
   field_names = []
-  
+
   with open(UPDATED_SHEET, 'r') as u:
       
       # field names
