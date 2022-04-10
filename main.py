@@ -39,7 +39,7 @@ def generate_updated_sheet():
 
         updated_rows.append(new_row)
 
-      with open(UPDATED_SHEET, 'w') as u:
+      with open(UPDATED_SHEET, 'w', newline='') as u:
           writer = csv.DictWriter(u, fieldnames=field_names)
           writer.writeheader()
           writer.writerows(updated_rows)
@@ -64,7 +64,7 @@ def generate_ccg_sheet():
         for i in range(0, EMPT_ROWS):
           final_rows.append(['', ''])
 
-      with open(CCG_SHEET, 'w') as c:
+      with open(CCG_SHEET, 'w', newline='') as c:
           writer = csv.writer(c)
           writer.writerows(final_rows)
 
