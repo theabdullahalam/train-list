@@ -20,41 +20,54 @@ def get_origin_divn(train_no):
     return 'Not Found'
 
 def generate_updated_sheet():
+  field_names = []
+  train_no_column = ''
+  class_column = ''
+
   with open(FAX_SHEET, 'r') as f:
-      # field names
-      row_list = list(csv.reader(f))
-      field_names = row_list[0]
-      field_names.insert(2, 'Division')
+    # field names
+    row_list = list(csv.reader(f))
+    field_names = row_list[0]
+    field_names.insert(2, 'Division')
+    train_no_column = field_names[1]
+    class_column = field_names[3]
 
-      # processing
-      reader = csv.DictReader(f)
-      updated_rows = []
+  with open(FAX_SHEET, 'r') as f:
 
-      for row in reader:
-        new_row = row
-        new_row['Division'] = get_origin_divn(row['Train no'])
+    # processing
+    reader = csv.DictReader(f)
+    updated_rows = []
 
-        # handle BCT case
-        if new_row['Division'] == 'BCT':
-          if new_row['Class'] == 'SL' or new_row['Class'] == '2S':
-            pass
-          else:
-            new_row['Division'] = 'CCG'
+    for row in reader:
+      print(row)
+      new_row = row
+      new_row['Division'] = get_origin_divn(row[train_no_column])
+
+      # handle BCT case
+      if new_row['Division'] == 'BCT':
+        if new_row[class_column] == 'SL' or new_row[class_column] == '2S':
+          pass
+        else:
+          new_row['Division'] = 'CCG'
 
 
-        updated_rows.append(new_row)
+      updated_rows.append(new_row)
 
-      with open(UPDATED_SHEET, 'w', newline='') as u:
-          writer = csv.DictWriter(u, fieldnames=field_names)
-          writer.writeheader()
-          writer.writerows(updated_rows)
+    with open(UPDATED_SHEET, 'w', newline='') as u:
+        writer = csv.DictWriter(u, fieldnames=field_names)
+        writer.writeheader()
+        writer.writerows(updated_rows)
 
 def generate_ccg_sheet():
+  field_names = []
+  
   with open(UPDATED_SHEET, 'r') as u:
       
       # field names
-      row_list = list(csv.reader(f))
+      row_list = list(csv.reader(u))
       field_names = row_list[0]
+
+  with open(UPDATED_SHEET, 'r') as u:
 
       reader = csv.DictReader(u)
       ccg_rows = []
