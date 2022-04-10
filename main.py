@@ -21,8 +21,13 @@ def get_origin_divn(train_no):
 
 def generate_updated_sheet():
   with open(FAX_SHEET, 'r') as f:
+      # field names
+      row_list = list(csv.reader(f))
+      field_names = row_list[0]
+      field_names.insert(2, 'Division')
+
+      # processing
       reader = csv.DictReader(f)
-      field_names = ['S.No.','Train no','Division','Class','Date','FROM','TO','PNR NO.','NAME &NO. OF BERTHS','REFERENCE','Remarks','MOB.NO.']
       updated_rows = []
 
       for row in reader:
@@ -46,8 +51,12 @@ def generate_updated_sheet():
 
 def generate_ccg_sheet():
   with open(UPDATED_SHEET, 'r') as u:
+      
+      # field names
+      row_list = list(csv.reader(f))
+      field_names = row_list[0]
+
       reader = csv.DictReader(u)
-      field_names = ['S.No.','Train no','Division','Class','Date','FROM','TO','PNR NO.','NAME &NO. OF BERTHS','REFERENCE','Remarks','MOB.NO.']
       ccg_rows = []
       final_rows = []
 
