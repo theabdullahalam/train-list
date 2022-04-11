@@ -6,7 +6,7 @@ MOSR_FILE = 'database.csv'
 FAX_SHEET = sys.argv[1]
 UPDATED_SHEET = 'updated-sheet.csv'
 CCG_SHEET = 'ccg-sheet.csv'
-EMPT_ROWS = 14
+EMPT_ROWS = 10
 
 def get_origin_divn(train_no):
 
@@ -72,16 +72,28 @@ def generate_ccg_sheet():
       ccg_rows = []
       final_rows = []
 
+      # pick which rows to include
       for row in reader:
         new_row = row
         if row['Division'] == 'CCG':
           ccg_rows.append(new_row)
 
+
+      # for each set
       for row in ccg_rows:
+
+        # add mr column
+        final_rows.append(['MR OFFICE', ''])
+
+        # add the rows transposed
         for i, key in enumerate(row.keys()):
+          # don't include the division column
+          if field_names[i] == 'Division':
+            continue
           newrow = list([field_names[i], row[key]])
           final_rows.append(newrow)
         
+        # add empty rows
         for i in range(0, EMPT_ROWS):
           final_rows.append(['', ''])
 
